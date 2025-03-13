@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS TABELLL</title>
+    <style>
+        body{
+            background-color: rgb(100, 188, 153);
+            background-size: cover;
+    }
+        table {
+            width: 75%;
+            border-collapse: collapse;
+        }
+        th {
+            border: 2px solid black;
+            background-color: bisque;
+            color : black
+        }
+        td {
+            border: 2px solid black;
+            color : black;
+            text-align: center;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bikin tabell</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Hari</th>
+                <th>Waktu</th>
+                <th>Mapel</th>
+                <th>Penanggung Jawab</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>Senin</td>
+              <td> 07.00 - 12.00 </td>
+              <td> Peminatan </td>
+              <td> Bang Jul </td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>07.00 - 11.00</td>
+                <td>Agama</td>
+                <td>Ust Subhan</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>07.00 - 12.00</td>
+                <td>Peminatan</td>
+                <td>Zah Helen</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>07.00 - 11.00</td>
+                <td>Mapel wajib</td>
+                <td>Zah peza</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>08.00 - 10.00</td>
+                <td>Ekskul</td>
+                <td>Pak Juri</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
